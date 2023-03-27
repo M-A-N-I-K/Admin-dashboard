@@ -1,6 +1,6 @@
 import "./App.css";
-import Navbar from "./Navbar";
-import UserCard from "./UserCard";
+import Navbar from "./Components/Navbar";
+import UserCard from "./Components/UserCard";
 
 function App() {
 	return (
