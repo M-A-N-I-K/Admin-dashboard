@@ -3,10 +3,9 @@ import {
 	Navbar,
 	MobileNav,
 	Typography,
-	Button,
 	IconButton,
-	Card,
 } from "@material-tailwind/react";
+import { Link } from "react-router-dom";
 
 export default function Example() {
 	const [openNav, setOpenNav] = React.useState(false);
@@ -26,9 +25,9 @@ export default function Example() {
 				color="blue-gray"
 				className="p-1 font-normal"
 			>
-				<a href="#" className="flex items-center">
+				<Link to="/" className="flex items-center">
 					Home
-				</a>
+				</Link>
 			</Typography>
 			<Typography
 				as="li"
@@ -36,9 +35,9 @@ export default function Example() {
 				color="blue-gray"
 				className="p-1 font-normal"
 			>
-				<a href="#" className="flex items-center">
+				<Link to="/admin-dashboard" className="flex items-center">
 					Admin Dashboard
-				</a>
+				</Link>
 			</Typography>
 			<Typography
 				as="li"
@@ -46,9 +45,9 @@ export default function Example() {
 				color="blue-gray"
 				className="p-1 font-normal"
 			>
-				<a href="#" className="flex items-center">
+				<Link to="/reports" className="flex items-center">
 					Reports
-				</a>
+				</Link>
 			</Typography>
 			<Typography
 				as="li"
@@ -56,9 +55,19 @@ export default function Example() {
 				color="blue-gray"
 				className="p-1 font-normal"
 			>
-				<a href="#" className="flex items-center">
-					About
-				</a>
+				<Link to="/mapuser" className="flex items-center">
+					Mutltimap
+				</Link>
+			</Typography>
+			<Typography
+				as="li"
+				variant="small"
+				color="blue-gray"
+				className="p-1 font-normal"
+			>
+				<Link to="/auth" className="flex items-center">
+					Login/Register
+				</Link>
 			</Typography>
 		</ul>
 	);
@@ -72,7 +81,7 @@ export default function Example() {
 						href="#"
 						className="mr-4 cursor-pointer py-1.5 font-medium"
 					>
-						Admin Dashboard
+						Bandobast Tracker
 					</Typography>
 					<div className="flex items-center gap-4">
 						<div className="mr-4 hidden lg:block">{navList}</div>

@@ -6,46 +6,46 @@ import {
 } from "@material-tailwind/react";
 const users = [
 	{
-		name: "User 1",
-		email: "user1@gmail.com",
-		phoneNo: 9123417611,
+		name: "Balram nath",
+		email: "balramnath1@gmail.com",
+		phoneNo: 9982345622,
 		imgURL:
-			"https://img2link.com/images/2023/03/25/262d0aa224b7a7067a9f2ed093907d90.jpg",
+			"https://tse4.mm.bing.net/th?id=OIP.nBy6dlY-QZFYSVqz6SLpRQHaID&pid=Api&P=0",
 	},
 	{
-		name: "User 2",
-		email: "user2@gmail.com",
-		phoneNo: 9983417611,
+		name: "Rajvinder Singh",
+		email: "rajvindersingh2@gmail.com",
+		phoneNo: 9876054321,
 		imgURL:
-			"https://img2link.com/images/2023/03/25/262d0aa224b7a7067a9f2ed093907d90.jpg",
+			"https://tse4.mm.bing.net/th?id=OIP.QUVtHmMXSY0hSOQy7c1M_gHaEK&pid=Api&P=0",
 	},
 	{
-		name: "User 3",
-		email: "user3@gmail.com",
-		phoneNo: 9123417611,
+		name: "Rajender Gupta",
+		email: "rajendergupta3@gmail.com",
+		phoneNo: 7780954632,
 		imgURL:
-			"https://img2link.com/images/2023/03/25/262d0aa224b7a7067a9f2ed093907d90.jpg",
+			"https://tse3.mm.bing.net/th?id=OIP.ner6W-ZPVQD3ByLh-WC-JQHaL2&pid=Api&P=0",
 	},
 	{
-		name: "User 4",
-		email: "user4@gmail.com",
-		phoneNo: 9123417611,
+		name: "Saurabh Tiwari",
+		email: "saurabhtiwari4@gmail.com",
+		phoneNo: 7780966666,
 		imgURL:
-			"https://img2link.com/images/2023/03/25/262d0aa224b7a7067a9f2ed093907d90.jpg",
+			"https://tse3.mm.bing.net/th?id=OIP._c5S9Pp3at_4yHib4SzTSQE8DF&pid=Api&P=0",
 	},
 	{
-		name: "User 5",
-		email: "user5@gmail.com",
-		phoneNo: 9123417611,
+		name: "Mohit chabra",
+		email: "mohitchabra5@gmail.com",
+		phoneNo: 9971965342,
 		imgURL:
-			"https://img2link.com/images/2023/03/25/262d0aa224b7a7067a9f2ed093907d90.jpg",
+			"https://tse1.mm.bing.net/th?id=OIP.KP5NUfMG2pCV0OizF7SDIQAAAA&pid=Api&P=0",
 	},
 	{
-		name: "User 6",
-		email: "user6@gmail.com",
-		phoneNo: 9123417611,
+		name: "Rohit pandey",
+		email: "rohitpandey6@gmail.com",
+		phoneNo: 9976543809,
 		imgURL:
-			"https://img2link.com/images/2023/03/25/262d0aa224b7a7067a9f2ed093907d90.jpg",
+			"https://tse1.mm.bing.net/th?id=OIP.PardoSo-g6vBDPNh7kGEcwHaEj&pid=Api&P=0",
 	},
 ];
 
@@ -59,7 +59,7 @@ export default function userCard() {
 							floated={false}
 							shadow={false}
 							color="transparent"
-							className="m-0 rounded-none object-contain"
+							className="m-0 h-64 rounded-none"
 						>
 							<img src={user.imgURL} alt="User Picture" />
 						</CardHeader>

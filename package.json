@@ -8,10 +8,36 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "dependencies": {
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@tomtom-international/web-sdk-maps": "^6.13.0",
+    "@tomtom-international/web-sdk-services": "^6.13.0",
+    "i": "^0.3.6",
     "@material-tailwind/react": "^1.4.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "web-vitals": "^1.1.2",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.9.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

@@ -1,0 +1,16 @@
+.UserLocations{
+    background-color: rgb(248, 153, 153);
+    
+ }
+ 
+ .userlocation{
+     display: flex;
+     align-items: center;
+     width: 40vw;
+     justify-content: space-between;
+     padding: 0 2rem;
+
+ }
+ .userlocation p{
+    color: green;
+ }
